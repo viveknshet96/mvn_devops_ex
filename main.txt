@@ -24,11 +24,11 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello works 🚀";
+        return "Hello works ";
     }
 
     @GetMapping("/")
     public String home() {
-        return "Home works 🚀";
+        return "Home works ";
     }
 }
