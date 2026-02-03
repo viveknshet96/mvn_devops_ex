@@ -40,10 +40,10 @@ pipeline {
 
     post {
         success {
-            echo "Pipeline Successful 🚀"
+            echo "Pipeline Successful "
         }
         failure {
-            echo "Pipeline Failed ❌"
+            echo "Pipeline Failed "
         }
         always {
             deleteDir()
